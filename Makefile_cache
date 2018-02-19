@@ -1,0 +1,17 @@
+irun -access +rwc \
+-linedebug \
+tb_cache.v \
+CACHETOP.v \
+CACHE.v \
+STOREBUFFER.v \
+DATARAM.v \
+./wishbone/wb_conmax_arb.v \
+./wishbone/wb_conmax_master_if.v \
+./wishbone/wb_conmax_msel.v \
+./wishbone/wb_conmax_pri_dec.v \
+./wishbone/wb_conmax_pri_enc.v \
+./wishbone/wb_conmax_rf.v \
+./wishbone/wb_conmax_slave_if.v \
+./wishbone/wb_conmax_top.v \
+-linedebug -timescale 1ns/1ns -input run.tcl
+

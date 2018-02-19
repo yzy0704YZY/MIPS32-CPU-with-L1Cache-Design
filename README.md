@@ -1,4 +1,4 @@
-MIPS32 Based Synthesizable CPU (with Cache) RTL Design
+MIPS32 ISA Synthesizable CPU (with L1 Cache) RTL Design
 
 Designed a 5-stage all-round scalar processor, synthesized using 45nm library and reached 152MHz;
 
